@@ -1,0 +1,105 @@
+# ============================================================
+# Java / Maven
+# ============================================================
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+# Maven build output
+target/
+build/
+out/
+
+# Maven wrapper
+.mvn/wrapper/maven-wrapper.jar
+
+# ============================================================
+# Eclipse IDE
+# ============================================================
+.classpath
+.project
+.settings/
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.loadpath
+.recommenders
+
+# Eclipse Checkstyle
+.checkstyle
+
+# ============================================================
+# IntelliJ IDEA
+# ============================================================
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# ============================================================
+# VS Code
+# ============================================================
+.vscode/
+
+# ============================================================
+# Credenciales y configuración sensible
+# ============================================================
+# Archivos de configuración con contraseñas o conexiones reales
+application-prod.properties
+application-prod.yml
+*.env
+.env
+.env.*
+secrets.properties
+db.properties
+
+# ============================================================
+# Logs
+# ============================================================
+*.log
+logs/
+log/
+
+# ============================================================
+# Sistema operativo
+# ============================================================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+*~
+
+# ============================================================
+# Tomcat / Servidor de aplicaciones
+# ============================================================
+work/
+.tomcat/
+
+# ============================================================
+# Node / npm (si se usa para frontend tools)
+# ============================================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
